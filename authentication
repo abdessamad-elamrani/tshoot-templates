@@ -1,0 +1,5 @@
+diag firewall auth filter 	        
+diag firewall auth list	          
+diag test authserver [ldap|..]	        
+# diag debug app auth -1	          debugging of auth protocol
+# diag debug app fnbamd -1	          debugging remote auth prot
