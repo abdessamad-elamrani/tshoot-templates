@@ -1,3 +1,9 @@
-ipsec
+general_health
+memory_cpu
 routing
-health
+npu_drops
+ipsec
+IPS_utilization
+sdwan_6.4
+sdwan_6.2_lower
+WAD_proxy
