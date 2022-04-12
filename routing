@@ -1,0 +1,4 @@
+get router info routing-table all
+diagnose firewall proute list
+diagnose ip rtcache list
+get router info kernel
