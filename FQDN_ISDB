@@ -1,0 +1,5 @@
+diag internet-service xxxx
+diag internet-service info
+diag internet-service 'vdom'ip'mask
+diag test app dnsproxy 6
+diag firewall fqdn list
