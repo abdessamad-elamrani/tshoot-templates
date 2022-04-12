@@ -1,0 +1,36 @@
+exec date
+exec time
+get system status
+get sys perf status
+diag sys session stat
+diag hard sys mem
+diag sys top 2 20
+diag sys top-summary
+diag sys top-summary "-n 5 --sort=mem"
+diagnose sys cmdb info
+diag sys vd list | grep fib
+fnsysctl cat /proc/stat
+fnsysctl cat /proc/interrupts
+diag ips session stat
+diagnose npu np6 dce 0
+diagnose npu np6 dce 1
+diagnose hardware deviceinfo nic fctrl/f2-1
+diagnose hardware deviceinfo nic fctrl/f2-2
+diagnose hardware deviceinfo nic fctrl/f1-1
+diag ips session performance
+diag ips session status
+diag ips packet statusICT1-LAN diagnose snmp ip frags
+diag firewall packet distribution
+diagnose sys session stat
+diagnose hardware sysinfo interrupts
+diagnose hardware sysinfo memory
+diagnose hardware sysinfo slab
+diagnose hardware sysinf mtrr
+diagnose hardware sysinfo shm
+get sys performance firewall statistics
+diag firewall packet distribution
+fnsysctl cat /proc/nturbo/0/drv
+fnsysctl cat /proc/nturbo/1/drv
+fnsysctl cat /proc/nturbo/2/drv
+fnsysctl cat /proc/nturbo/3/drv
+exec time
