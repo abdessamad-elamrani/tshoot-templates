@@ -2,6 +2,11 @@ exec time
 exec date
 get sys stat
 get sys perf status
+diag hard sysinfo cpu 
+diag hard sysinfo conserve	conserve mode, Mem / FD(file descrt)..
+diag hard sysinfo memory
+diag hard deviceinfo disk   
+exec disk list	
 diag ips memory status
 fnsysctl cat /proc/stat
 fnsysctl cat /proc/interrupts
@@ -9,11 +14,6 @@ diag hard sys mem
 diag hard sys slab
 diag sys session stat
 diag sys top 1 99
-q
-end
-config vdom
-edit root
 get sys performance firewall statistics
 diag firewall packet distribution
 diag snmp ip frags
-exit
