@@ -1,0 +1,9 @@
+diag ips anomaly list
+diag antivirus test 'comand'
+diag antivirus database-info
+diag autoupdate status
+diag autoupdate versions
+diag ips packet statu
+diag debug rating
+diag webfilter fortiguard stat list
+diag webfilter fortiguard cache dump
