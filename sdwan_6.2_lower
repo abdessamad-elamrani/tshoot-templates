@@ -1,0 +1,9 @@
+diag sys virtual-wan-link member
+diag sys virtual-wan-link health-check
+diag sys virtual-wan-link service ...
+diag sys virtual-wan-link intf-sla-log ...
+diag sys virtual-wan-link sla-log x y ...
+diag test app linkmtd 1/2/3 ..
+get router info routing-table database
+get router info routing-table all
+get router info kernel
