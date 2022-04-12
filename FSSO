@@ -1,0 +1,4 @@
+diag debug authd fsso list
+diag debug authd fsso server-status 
+diag debug fsso-polling 
+## diag deb app fsso -1   // debuging 
