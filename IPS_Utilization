@@ -1,0 +1,9 @@
+diag sys mpstat 2 5
+diagnose sys profile cpumask 1
+diagnose sys profile start
+pause pauseentre
+diagnose sys profile stop
+pause pauseentre
+diagnose sys profile show order
+pause 10
+pause pauseentre
